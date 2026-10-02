@@ -1,0 +1,34 @@
+{
+  "mappings": {
+    "ru/berdinskiybear/armorhud/mixin/BossBarHudMixin": {
+      "render": "Lnet/minecraft/class_337;method_1796(Lnet/minecraft/class_4587;)V"
+    },
+    "ru/berdinskiybear/armorhud/mixin/InGameHudMixin": {
+      "Lnet/minecraft/client/gui/hud/InGameHud;renderHotbar(FLnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+      "renderStatusEffectOverlay": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V"
+    },
+    "ru/berdinskiybear/armorhud/mixin/SubtitlesHudMixin": {
+      "Lnet/minecraft/client/font/TextRenderer;getWidth(Ljava/lang/String;)I": "Lnet/minecraft/class_327;method_1727(Ljava/lang/String;)I",
+      "Lnet/minecraft/client/util/math/MatrixStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+      "render": "Lnet/minecraft/class_359;method_1957(Lnet/minecraft/class_4587;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ru/berdinskiybear/armorhud/mixin/BossBarHudMixin": {
+        "render": "Lnet/minecraft/class_337;method_1796(Lnet/minecraft/class_4587;)V"
+      },
+      "ru/berdinskiybear/armorhud/mixin/InGameHudMixin": {
+        "Lnet/minecraft/client/gui/hud/InGameHud;renderHotbar(FLnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1759(FLnet/minecraft/class_4587;)V",
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+        "renderStatusEffectOverlay": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V"
+      },
+      "ru/berdinskiybear/armorhud/mixin/SubtitlesHudMixin": {
+        "Lnet/minecraft/client/font/TextRenderer;getWidth(Ljava/lang/String;)I": "Lnet/minecraft/class_327;method_1727(Ljava/lang/String;)I",
+        "Lnet/minecraft/client/util/math/MatrixStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+        "render": "Lnet/minecraft/class_359;method_1957(Lnet/minecraft/class_4587;)V"
+      }
+    }
+  }
+}

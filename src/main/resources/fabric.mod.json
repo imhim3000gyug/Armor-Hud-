@@ -1,33 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "armor_hud",
 	"version": "${version}",
-	"name": "Template Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "BerdinskiyBear's ArmorHUD",
+	"description": "This mod adds a minimalistic vanilla-like widget that shows your armor items and a warning if durability is low enough.",
 	"authors": [
-		"Me!"
+		"BerdinskiyBear"
 	],
+	"contributors": [],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/berdinskiybears-armor-hud",
+		"issues": "https://github.com/BerdinskiyBear/armor-hud/issues"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
-	"environment": "*",
+	"license": "MIT",
+	"icon": "assets/armor_hud/icon.png",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"com.example.TemplateMod"
-		],
+		"main": [],
 		"client": [
-			"com.example.client.TemplateModClient"
+			"ru.berdinskiybear.armorhud.ArmorHudModEntrypoint"
+		],
+		"server": [],
+		"modmenu": [
+			"ru.berdinskiybear.armorhud.config.ArmorHudModmenuIntegration"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json",
-		{
-			"config": "template-mod.client.mixins.json",
-			"environment": "client"
-		}
+		"armor_hud.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.5",
